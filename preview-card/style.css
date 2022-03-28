@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+:root {
+  --cor0: #FFFFFF;
+  --cor1: #C44900;
+  --cor2: #01172F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cor2);
+}
+
+.container {
+  display: flex;
+  border-radius: 8px;
+  background: var(--cor0);
+  cursor: default;
+}
+
+.main-content {
+  margin: 100px  160px 60px 120px;
+}
+
+.main-text h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.main-text h1 a {
+  color: var(--cor1);
+  text-decoration: none;
+}
+
+.main-text p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.list {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list-content h1 {
+  font-size: 50px;
+}
+
+.list-content p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img {
+  display: flex;
+}
+
+.img img {
+  width: 790px;
+  height: auto;
+  border-radius: 0px 8px 8px 0px;
+}
